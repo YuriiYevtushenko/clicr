@@ -23,14 +23,15 @@
     max-width: 125px;
   }
   &__menu{
-    color: #757575;
-      font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    letter-spacing: 0.03em;
+
     display: flex;
     align-items: center;
     &__items{
+      color: #757575;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      letter-spacing: 0.03em;
       margin-right: 55px;
       transition: 0.3s;
       &:hover{

@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../images/header__logo.png'
+import Link from "gatsby-link";
+
 const Header = () => {
     const menuItems=['Home',
     'How it works',
@@ -14,7 +16,7 @@ const Header = () => {
                     <div className='header__wrap'>
                         <ul className='header__menu'>
                          {menuItems.map((item,index)=>(
-                        <li key={index} className='header__menu__items'>{item}</li>
+                             <li key={index} ><Link to='/' className='header__menu__items'>{item}</Link></li>
                         ))}
 
                         </ul>

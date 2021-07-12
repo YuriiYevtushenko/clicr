@@ -1,0 +1,20 @@
+.imageSlider{
+  max-width: 1920px;
+  display: flex;
+  margin: auto;
+  &__images{
+    display: flex;
+    justify-content: center;
+    margin:0 5px 50px 5px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__image{
+    max-width: 369px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    &:last-child{
+      margin: 0;
+    }
+  }
+}
