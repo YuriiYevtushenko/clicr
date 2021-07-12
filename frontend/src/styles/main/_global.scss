@@ -1,0 +1,48 @@
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: 'Roboto', serif;
+  color: $gray;
+  background-color: $white;
+}
+.global{
+  &__text{
+    font-weight: 400;
+    font-size: 1.125rem;
+    &--green{
+      color: $green;
+    }
+    &--orange{
+      color: $orange;
+    }
+    &--blue{
+      color: $blue;
+    }
+  }
+  &__button{
+    background: $orange;
+    border-radius: 80px;
+    padding: 14px 28px;
+    color:$white;
+  }
+}
+
+img,
+svg {
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+
+section {
+  margin-top: 3rem;
+
+  @include media(lg) {
+    margin-top: 2rem;
+  }
+
+  @include media(xs) {
+    margin-top: 1rem;
+  }
+}

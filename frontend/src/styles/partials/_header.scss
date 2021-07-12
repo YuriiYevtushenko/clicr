@@ -1,0 +1,50 @@
+.header{
+  margin-top: 0;
+  z-index: 1000;
+  position: sticky;
+  min-height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transition: all .3s ease-in;
+  background: $white;
+  &__wrap{
+    display: flex;
+    align-items: center;
+  }
+  &__inner{
+    @include container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo{
+    max-height: 35px;
+    max-width: 125px;
+  }
+  &__menu{
+    color: #757575;
+      font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    &__items{
+      margin-right: 55px;
+      transition: 0.3s;
+      &:hover{
+        color: $gray;
+      }
+    }
+    &__button{
+      background-color:$blue ;
+      color: $white;
+      padding:  14px 20px;
+      min-width: 135px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+  }
+
+}
