@@ -18,6 +18,7 @@ const Clients = () => {
                         <img src={mailbluster} alt='logo' className='clients__image'/>
                         <img src={wagon} alt='logo' className='clients__image'/>
                     </div>
+                    <span className='clients__separator'/>
                 </div>
             </section>
         </>

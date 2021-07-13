@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import Cta from "../components/Cta";
 import ImageSlider from "../components/ImageSlider";
 import Clients from "../components/Clients";
+import Deliver from "../components/Deliver";
 
 
 const IndexPage = () => {
@@ -11,6 +12,7 @@ const IndexPage = () => {
           <Cta/>
           <ImageSlider/>
           <Clients/>
+          <Deliver/>
       </Layout>
   )
 }
