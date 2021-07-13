@@ -4,6 +4,7 @@ import Cta from "../components/Cta";
 import ImageSlider from "../components/ImageSlider";
 import Clients from "../components/Clients";
 import Deliver from "../components/Deliver";
+import Plans from "../components/Plans";
 
 
 const IndexPage = () => {
@@ -13,6 +14,7 @@ const IndexPage = () => {
           <ImageSlider/>
           <Clients/>
           <Deliver/>
+          <Plans/>
       </Layout>
   )
 }
