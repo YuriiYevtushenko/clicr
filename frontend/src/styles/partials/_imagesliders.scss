@@ -3,6 +3,7 @@
   display: flex;
   margin: auto;
   &__images{
+    width: 100%;
     display: flex;
     justify-content: center;
     margin:0 5px 50px 5px;
@@ -11,10 +12,13 @@
   }
   &__image{
     max-width: 369px;
-    margin-bottom: 16px;
-    margin-right: 16px;
+
+    margin:0 8px  16px 8px;
     &:last-child{
       margin: 0;
+
     }
+
+
   }
 }

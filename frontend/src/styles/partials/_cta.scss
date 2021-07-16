@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
+    text-align: center;
   }
   &__text{
     color: #757575;
@@ -18,6 +20,12 @@
     font-family: PT Serif, serif;
     font-style: normal;
     line-height: 120%;
+    @include media(md){
+      font-size: 40px;
+    }
+    @include media(sm){
+      font-size: 30px;
+    }
   }
   &__image{
     margin-right: 5px;
@@ -27,5 +35,9 @@
     display: flex;
     align-items: center;
     margin-bottom: 50px;
+    justify-content: center;
+    @include media(sm){
+      width: 100%;
+    }
   }
 }

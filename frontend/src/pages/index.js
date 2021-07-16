@@ -5,6 +5,8 @@ import ImageSlider from "../components/ImageSlider";
 import Clients from "../components/Clients";
 import Deliver from "../components/Deliver";
 import Plans from "../components/Plans";
+import Gallery from "../components/Gallery";
+import Services from "../components/Services";
 
 
 const IndexPage = () => {
@@ -15,6 +17,8 @@ const IndexPage = () => {
           <Clients/>
           <Deliver/>
           <Plans/>
+          <Gallery/>
+          <Services/>
       </Layout>
   )
 }

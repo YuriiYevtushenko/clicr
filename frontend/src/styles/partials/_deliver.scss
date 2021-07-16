@@ -18,6 +18,7 @@
     font-size: 57px;
     color: $gray;
     margin-bottom: 60px;
+    text-align: center;
   }
   &__items{
     width: 100%;
@@ -25,6 +26,10 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 105px;
+    flex-wrap: wrap;
+    @include media(md){
+      justify-content: center;
+    }
   }
   &__item{
     display: flex;
@@ -32,6 +37,14 @@
     max-width: calc(33% - 40px);
     align-items: center;
     text-align: center;
+    @include media(md){
+      max-width: 50%;
+      width: 50%;
+    }
+    @include media(sm){
+      max-width: 100%;
+      width: 100%;
+    }
     &__title{
       font-weight: 700;
       font-family: PT Serif, serif;
