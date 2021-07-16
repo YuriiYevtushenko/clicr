@@ -12,6 +12,12 @@
     font-weight: bold;
     font-size: 57px;
     margin: 40px 0 ;
+    @include media(md){
+      font-size: 40px;
+    }
+    @include media(sm){
+      font-size: 30px;
+    }
   }
   &__container{
     display: flex;

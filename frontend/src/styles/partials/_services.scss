@@ -14,6 +14,12 @@
     font-weight: bold;
     font-size: 57px;
     color: $gray;
+    @include media(md){
+      font-size: 40px;
+    }
+    @include media(sm){
+      font-size: 30px;
+    }
   }
   &__image{
     max-width: 315px;
@@ -33,6 +39,9 @@
     flex-direction: column;
     @include media(sm){
       width: 100%;
+    }
+    @include media(xs){
+      padding: 10px 20px;
     }
     &__title{
       font-family: PT Serif, serif;

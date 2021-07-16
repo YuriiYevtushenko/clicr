@@ -52,6 +52,12 @@
     font-weight: bold;
     font-size: 57px;
     color:$gray;
+    @include media(md){
+      font-size: 40px;
+    }
+    @include media(sm){
+      font-size: 30px;
+    }
   }
   &__name{
     font-family: PT Serif, serif;

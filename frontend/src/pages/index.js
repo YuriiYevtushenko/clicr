@@ -8,6 +8,7 @@ import Plans from "../components/Plans";
 import Gallery from "../components/Gallery";
 import Services from "../components/Services";
 import Faq from "../components/FAQ";
+import Cta2 from "../components/Cta2";
 
 
 const IndexPage = () => {
@@ -21,6 +22,7 @@ const IndexPage = () => {
           <Gallery/>
           <Services/>
           <Faq/>
+          <Cta2/>
       </Layout>
   )
 }

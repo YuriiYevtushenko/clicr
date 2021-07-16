@@ -8,6 +8,12 @@
     align-items: center;
     margin: auto;
     text-align: center;
+    &--background{
+      background-image: url('../images/cta2_background.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
   }
   &__text{
     color: #757575;
@@ -20,6 +26,15 @@
     font-family: PT Serif, serif;
     font-style: normal;
     line-height: 120%;
+    &--padding{
+      padding: 50px 170px 50px 170px;
+      @include media(md){
+        padding: 15px 50px 15px 50px;
+      }
+      @include media(sm){
+        padding: 5px 15px;
+      }
+    }
     @include media(md){
       font-size: 40px;
     }
