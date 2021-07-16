@@ -7,6 +7,7 @@ import Deliver from "../components/Deliver";
 import Plans from "../components/Plans";
 import Gallery from "../components/Gallery";
 import Services from "../components/Services";
+import Faq from "../components/FAQ";
 
 
 const IndexPage = () => {
@@ -19,6 +20,7 @@ const IndexPage = () => {
           <Plans/>
           <Gallery/>
           <Services/>
+          <Faq/>
       </Layout>
   )
 }
